@@ -1,0 +1,118 @@
+/* ################################################## */
+
+
+/* ########### YOUR CUSTOM CSS ########### */
+
+
+/* ################################################## */
+
+
+/* BACKGROUND IMAGE URL */
+
+
+/* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 900px;
+    font-size: 1em;
+    margin: auto;
+}
+
+#page-header {
+    border-bottom: 5px solid yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+}
+
+h1 a {
+    color: yellow;
+    font-size: 33px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav {
+    width: 500px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: end;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+p.tagline {
+    text-align: center;
+    font-style: italic;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url('https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg ');
+    height: 550px;
+    width: 860px;
+    padding: 150px 30px 10px 550px;
+    display: flex;
+    margin: auto;
+}
+
+div.blurb {
+    background: whitesmoke;
+    opacity: 0.7;
+}
+
+section.touts {
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    margin: 0auto;
+}
+
+section.tout {
+    padding: 12px;
+}
+
+a.button {
+    height: 30px;
+    width: 100px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+del {
+    color: darkgrey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 12px;
+}
